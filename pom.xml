@@ -33,12 +33,15 @@
 				<configuration>
 				<cloudHubDeployment>
 				<username>Nikhil_22</username>
+				<password>Nikhil@nik3</password>
 				<environmemt>Sandbox</environmemt>
+				<applicationName>timeZone-app</applicationName>
+				<muleVersion>4.3.0</muleVersion>
 				<workers>1</workers>     
 				<workerType>Micro</workerType>
-				<applicationName>worldTimezone-service</applicationName>
-				<password>Nikhil@nik3</password>
-				<muleVersion>7.5.1</muleVersion>
+				
+				
+				
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
