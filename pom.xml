@@ -32,13 +32,13 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-				<username>Nikhil_22</username>
-				<password>Nikhil@nik3</password>
-				<environmemt>Sandbox</environmemt>
-				<applicationName>timeZone-app</applicationName>
-				<muleVersion>4.3.0</muleVersion>
-				<workers>1</workers>     
-				<workerType>Micro</workerType>
+				<username>${username}</username>
+				<password>${password}</password>
+				<environmemt>${environment}</environmemt>
+				<applicationName>${application.name}</applicationName>
+				<muleVersion>${mule.version}</muleVersion>
+				<workers>${workers}</workers>     
+				<workerType>${worker.Type}</workerType>
 				                
 				      
 				
